@@ -3,7 +3,11 @@
 <!--                                                         -->
 <!-- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   -->
 
+<<<<<<< HEAD
 <Project Version="7" Minor="44" Path="/home/root07/Desktop/Final year/EEE4120F/Assignments/Project/Yoda/Yoda.xpr">
+=======
+<Project Version="7" Minor="44" Path="/home/maneno/nvidia/Vivado/2019.2/Yoda/Yoda.xpr">
+>>>>>>> 591a54f76293d90e97a7991df7eea806fb9ec97f
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="d75b41b734af4e4daa973805e0d81247"/>
@@ -60,6 +64,7 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
       <Filter Type="Srcs"/>
+<<<<<<< HEAD
       <File Path="$PSRCDIR/sources_1/new/SmoothingFilter.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -86,10 +91,16 @@
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopModule" Val="SmoothingFilter"/>
+=======
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+>>>>>>> 591a54f76293d90e97a7991df7eea806fb9ec97f
       </Config>
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
       <Filter Type="Constrs"/>
+<<<<<<< HEAD
       <File Path="$PSRCDIR/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../Documents/digilent-xdc-master/Nexys-A7-100T-Master.xdc"/>
@@ -98,6 +109,8 @@
           <Attr Name="UsedIn" Val="implementation"/>
         </FileInfo>
       </File>
+=======
+>>>>>>> 591a54f76293d90e97a7991df7eea806fb9ec97f
       <Config>
         <Option Name="ConstrsType" Val="XDC"/>
       </Config>
@@ -106,8 +119,11 @@
       <Filter Type="Srcs"/>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
+<<<<<<< HEAD
         <Option Name="TopModule" Val="Debounce"/>
         <Option Name="TopLib" Val="xil_defaultlib"/>
+=======
+>>>>>>> 591a54f76293d90e97a7991df7eea806fb9ec97f
         <Option Name="TopAutoSet" Val="TRUE"/>
         <Option Name="TransportPathDelay" Val="0"/>
         <Option Name="TransportIntDelay" Val="0"/>
@@ -124,7 +140,10 @@
     <FileSet Name="blk_mem_gen_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/blk_mem_gen_0">
       <File Path="$PSRCDIR/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci">
         <FileInfo>
+<<<<<<< HEAD
           <Attr Name="AutoDisabled" Val="1"/>
+=======
+>>>>>>> 591a54f76293d90e97a7991df7eea806fb9ec97f
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -138,7 +157,10 @@
     <FileSet Name="blk_mem_gen_1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/blk_mem_gen_1">
       <File Path="$PSRCDIR/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci">
         <FileInfo>
+<<<<<<< HEAD
           <Attr Name="AutoDisabled" Val="1"/>
+=======
+>>>>>>> 591a54f76293d90e97a7991df7eea806fb9ec97f
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -194,11 +216,22 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
+<<<<<<< HEAD
     <Run Id="blk_mem_gen_1_synth_1" Type="Ft3:Synth" SrcSet="blk_mem_gen_1" Part="xc7a100tcsg324-1" ConstrsSet="blk_mem_gen_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
         <Step Id="synth_design"/>
       </Strategy>
+=======
+    <Run Id="blk_mem_gen_1_synth_1" Type="Ft3:Synth" SrcSet="blk_mem_gen_1" Part="xc7a100tcsg324-1" ConstrsSet="blk_mem_gen_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/blk_mem_gen_1_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+>>>>>>> 591a54f76293d90e97a7991df7eea806fb9ec97f
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2019"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
@@ -239,7 +272,13 @@
     </Run>
     <Run Id="blk_mem_gen_1_impl_1" Type="Ft2:EntireDesign" Part="xc7a100tcsg324-1" ConstrsSet="blk_mem_gen_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="blk_mem_gen_1_synth_1" IncludeInArchive="false" GenFullBitstream="true">
       <Strategy Version="1" Minor="2">
+<<<<<<< HEAD
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+=======
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+>>>>>>> 591a54f76293d90e97a7991df7eea806fb9ec97f
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
